@@ -1,6 +1,6 @@
 #import "LjsViewController.h"
 
-static CGFloat const heightOfRow = 44;
+static CGFloat const heightOfRow = 49;
 
 @interface UIColor (UIColor_LjsAdditions)
 + (UIColor *) colorWithR:(CGFloat) r g:(CGFloat) g b:(CGFloat) b;
@@ -38,7 +38,7 @@ static CGFloat const heightOfRow = 44;
   
   UITableViewStyle style = UITableViewStylePlain;
   self.tableView  = [[UITableView alloc] initWithFrame:rect
-                                                         style:style];
+                                                 style:style];
   
   self.tableView.bounds = rect;
   
@@ -54,10 +54,11 @@ static CGFloat const heightOfRow = 44;
   self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
   UIColor *lineColor = [UIColor blackColor];
   [self.tableView setSeparatorColor:lineColor];
-
+  self.tableView.accessibilityIdentifier = @"table";
+  
   [self.view addSubview:self.tableView];
   
-  self.array = [NSArray arrayWithObjects:@"a", @"b", @"c", @"d", @"e", @"f", @"g", @"h", @"i", nil];
+  self.array = [NSArray arrayWithObjects:@"a", @"b", @"c", @"d", @"e", @"f", @"g", @"h", @"i", @"j", @"k", @"l", @"m", @"n", @"o", @"p", nil];
   
   [self.navigationItem setRightBarButtonItem:self.editButtonItem];
   self.editing = NO;
@@ -84,7 +85,17 @@ static CGFloat const heightOfRow = 44;
   NSString *identifier = [NSString stringWithFormat:@"%d:%d", aIndexPath.section, aIndexPath.row];
   cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
                                 reuseIdentifier:identifier];
-  cell.textLabel.text = [self.array objectAtIndex:aIndexPath.row];
+  NSString *text = [self.array objectAtIndex:aIndexPath.row];
+  NSString *accessId = [NSString stringWithFormat:@":%@", text];  
+  
+  NSIndexPath *selectedIndex = [aTableView indexPathForSelectedRow];
+  if (selectedIndex != nil && selectedIndex.row == aIndexPath.row) {
+    cell.textLabel.text = @"selected";
+  } else {
+    cell.textLabel.text = text;
+  }
+  cell.accessibilityIdentifier = accessId;
+  cell.textLabel.accessibilityIdentifier = [NSString stringWithFormat:@"label"];
   return cell;
 }
 
@@ -155,13 +166,22 @@ static CGFloat const heightOfRow = 44;
 
 #pragma mark UITableViewDelegate Managing Selections
 
-//- (NSIndexPath *) tableView:(UITableView *) aTableView willSelectRowAtIndexPath:(NSIndexPath *) aIndexPath {
-//  
-//}
-//
-//- (void) tableView:(UITableView *) aTableView didSelectRowAtIndexPath:(NSIndexPath *) aIndexPath {
-//  
-//}
+- (NSIndexPath *) tableView:(UITableView *) aTableView willSelectRowAtIndexPath:(NSIndexPath *) aIndexPath {
+  NSIndexPath *selected = [aTableView indexPathForSelectedRow];
+  if (selected != nil) {
+    UITableViewCell *cell = [aTableView cellForRowAtIndexPath:selected];
+    cell.textLabel.text = [self.array objectAtIndex:selected.row];
+    [aTableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:selected]
+                      withRowAnimation:UITableViewRowAnimationAutomatic];
+  }
+  return aIndexPath;
+}
+
+- (void) tableView:(UITableView *) aTableView didSelectRowAtIndexPath:(NSIndexPath *) aIndexPath {
+  
+  UITableViewCell *cell = [aTableView cellForRowAtIndexPath:aIndexPath];
+  cell.textLabel.text = @"selected";
+}
 
 //- (NSIndexPath *) tableView:(UITableView *) aTableView willDeselectRowAtIndexPath:(NSIndexPath *) aIndexPath {
 //  
