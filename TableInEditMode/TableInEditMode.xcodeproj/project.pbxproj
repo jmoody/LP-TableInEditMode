@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5CA65AD15C330FC00E47914 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA65AC15C330FC00E47914 /* UIKit.framework */; };
+		F5CA65AF15C330FC00E47914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA65AE15C330FC00E47914 /* Foundation.framework */; };
+		F5CA65B115C330FC00E47914 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA65B015C330FC00E47914 /* CoreGraphics.framework */; };
+		F5CA65B715C330FC00E47914 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5CA65B515C330FC00E47914 /* InfoPlist.strings */; };
+		F5CA65B915C330FC00E47914 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA65B815C330FC00E47914 /* main.m */; };
+		F5CA65BD15C330FC00E47914 /* LjsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA65BC15C330FC00E47914 /* LjsAppDelegate.m */; };
+		F5CA65C015C330FC00E47914 /* LjsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA65BF15C330FC00E47914 /* LjsViewController.m */; };
+		F5CA65C315C330FC00E47914 /* LjsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CA65C115C330FC00E47914 /* LjsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5CA65A815C330FC00E47914 /* TableInEditMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableInEditMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CA65AC15C330FC00E47914 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5CA65AE15C330FC00E47914 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5CA65B015C330FC00E47914 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5CA65B415C330FC00E47914 /* TableInEditMode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableInEditMode-Info.plist"; sourceTree = "<group>"; };
+		F5CA65B615C330FC00E47914 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5CA65B815C330FC00E47914 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5CA65BA15C330FC00E47914 /* TableInEditMode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableInEditMode-Prefix.pch"; sourceTree = "<group>"; };
+		F5CA65BB15C330FC00E47914 /* LjsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LjsAppDelegate.h; sourceTree = "<group>"; };
+		F5CA65BC15C330FC00E47914 /* LjsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LjsAppDelegate.m; sourceTree = "<group>"; };
+		F5CA65BE15C330FC00E47914 /* LjsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LjsViewController.h; sourceTree = "<group>"; };
+		F5CA65BF15C330FC00E47914 /* LjsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LjsViewController.m; sourceTree = "<group>"; };
+		F5CA65C215C330FC00E47914 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LjsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CA65A515C330FC00E47914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CA65AD15C330FC00E47914 /* UIKit.framework in Frameworks */,
+				F5CA65AF15C330FC00E47914 /* Foundation.framework in Frameworks */,
+				F5CA65B115C330FC00E47914 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5CA659D15C330FC00E47914 = {
+			isa = PBXGroup;
+			children = (
+				F5CA65B215C330FC00E47914 /* TableInEditMode */,
+				F5CA65AB15C330FC00E47914 /* Frameworks */,
+				F5CA65A915C330FC00E47914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CA65A915C330FC00E47914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA65A815C330FC00E47914 /* TableInEditMode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CA65AB15C330FC00E47914 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA65AC15C330FC00E47914 /* UIKit.framework */,
+				F5CA65AE15C330FC00E47914 /* Foundation.framework */,
+				F5CA65B015C330FC00E47914 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5CA65B215C330FC00E47914 /* TableInEditMode */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA65BB15C330FC00E47914 /* LjsAppDelegate.h */,
+				F5CA65BC15C330FC00E47914 /* LjsAppDelegate.m */,
+				F5CA65BE15C330FC00E47914 /* LjsViewController.h */,
+				F5CA65BF15C330FC00E47914 /* LjsViewController.m */,
+				F5CA65C115C330FC00E47914 /* LjsViewController.xib */,
+				F5CA65B315C330FC00E47914 /* Supporting Files */,
+			);
+			path = TableInEditMode;
+			sourceTree = "<group>";
+		};
+		F5CA65B315C330FC00E47914 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA65B415C330FC00E47914 /* TableInEditMode-Info.plist */,
+				F5CA65B515C330FC00E47914 /* InfoPlist.strings */,
+				F5CA65B815C330FC00E47914 /* main.m */,
+				F5CA65BA15C330FC00E47914 /* TableInEditMode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CA65A715C330FC00E47914 /* TableInEditMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CA65C615C330FC00E47914 /* Build configuration list for PBXNativeTarget "TableInEditMode" */;
+			buildPhases = (
+				F5CA65A415C330FC00E47914 /* Sources */,
+				F5CA65A515C330FC00E47914 /* Frameworks */,
+				F5CA65A615C330FC00E47914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableInEditMode;
+			productName = TableInEditMode;
+			productReference = F5CA65A815C330FC00E47914 /* TableInEditMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CA659F15C330FC00E47914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ljs;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Little Joy Software";
+			};
+			buildConfigurationList = F5CA65A215C330FC00E47914 /* Build configuration list for PBXProject "TableInEditMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5CA659D15C330FC00E47914;
+			productRefGroup = F5CA65A915C330FC00E47914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CA65A715C330FC00E47914 /* TableInEditMode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CA65A615C330FC00E47914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CA65B715C330FC00E47914 /* InfoPlist.strings in Resources */,
+				F5CA65C315C330FC00E47914 /* LjsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CA65A415C330FC00E47914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CA65B915C330FC00E47914 /* main.m in Sources */,
+				F5CA65BD15C330FC00E47914 /* LjsAppDelegate.m in Sources */,
+				F5CA65C015C330FC00E47914 /* LjsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5CA65B515C330FC00E47914 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CA65B615C330FC00E47914 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5CA65C115C330FC00E47914 /* LjsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CA65C215C330FC00E47914 /* en */,
+			);
+			name = LjsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5CA65C415C330FC00E47914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5CA65C515C330FC00E47914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CA65C715C330FC00E47914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableInEditMode/TableInEditMode-Prefix.pch";
+				INFOPLIST_FILE = "TableInEditMode/TableInEditMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5CA65C815C330FC00E47914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableInEditMode/TableInEditMode-Prefix.pch";
+				INFOPLIST_FILE = "TableInEditMode/TableInEditMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CA65A215C330FC00E47914 /* Build configuration list for PBXProject "TableInEditMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CA65C415C330FC00E47914 /* Debug */,
+				F5CA65C515C330FC00E47914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CA65C615C330FC00E47914 /* Build configuration list for PBXNativeTarget "TableInEditMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CA65C715C330FC00E47914 /* Debug */,
+				F5CA65C815C330FC00E47914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5CA659F15C330FC00E47914 /* Project object */;
+}
