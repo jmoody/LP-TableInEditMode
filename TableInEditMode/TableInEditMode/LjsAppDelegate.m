@@ -1,13 +1,4 @@
-//
-//  LjsAppDelegate.m
-//  TableInEditMode
-//
-//  Created by Joshua Moody on 27.7.12.
-//  Copyright (c) 2012 Little Joy Software. All rights reserved.
-//
-
 #import "LjsAppDelegate.h"
-
 #import "LjsViewController.h"
 
 @implementation LjsAppDelegate
@@ -15,14 +6,20 @@
 @synthesize window = _window;
 @synthesize viewController = _viewController;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
   self.viewController = [[LjsViewController alloc] initWithNibName:@"LjsViewController" bundle:nil];
-  self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
-    return YES;
+  UINavigationController *navcon = [[UINavigationController alloc]
+                                     initWithRootViewController:self.viewController];
+  NSArray *tabs = [NSArray arrayWithObjects:navcon, nil];
+  UITabBarController *tbc = [[UITabBarController alloc] init];
+  tbc.viewControllers = tabs;
+  tbc.delegate = self;
+
+  self.window.rootViewController = tbc;
+  [self.window makeKeyAndVisible];
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
