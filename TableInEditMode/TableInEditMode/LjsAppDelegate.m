@@ -1,10 +1,40 @@
 #import "LjsAppDelegate.h"
 #import "LjsViewController.h"
 
+@interface LjsAppDelegate ()
+
+- (NSString *) deviceOrientation;
+
+@end
+
 @implementation LjsAppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+
+- (NSString *) deviceOrientation {
+  UIApplication *app = [UIApplication sharedApplication];
+  UIInterfaceOrientation orient =  app.statusBarOrientation;
+  switch (orient) {
+    case UIInterfaceOrientationLandscapeLeft:
+      return @"landscape left";
+      break;
+    case  UIInterfaceOrientationLandscapeRight:
+      return @"landscape right";
+      break;
+    case UIInterfaceOrientationPortrait:
+      return @"portrait";
+      break;
+    case UIInterfaceOrientationPortraitUpsideDown:
+      return @"portrait upside down";
+      break;
+    default:
+      return @"unknown orientation";
+      break;
+  }
+}
+
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

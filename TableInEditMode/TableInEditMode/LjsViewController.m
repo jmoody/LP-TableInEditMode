@@ -232,4 +232,8 @@ static CGFloat const heightOfRow = 49;
 //  
 //}
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+  return YES;
+}
+
 @end

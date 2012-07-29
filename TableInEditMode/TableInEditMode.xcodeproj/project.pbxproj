@@ -1,850 +1,400 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>06ffdec2e107bc3295e48b39</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>calabash.framework</string>
-			<key>path</key>
-			<string>calabash.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10bfe60bbb57f9fad7340c66</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65BF15C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27a7ad660ed07a447d5ce614</key>
-		<dict>
-			<key>fileRef</key>
-			<string>78e231b89000f4e36012c587</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>42f347e379435c60c0f180d7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06ffdec2e107bc3295e48b39</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>47d5cbd5313858ccd0ff70c7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>725658c82aa38881eb47f9b4</string>
-				<string>5b6abebc93ca23d1f93f0a16</string>
-				<string>10bfe60bbb57f9fad7340c66</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5b6abebc93ca23d1f93f0a16</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65BC15C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6227d7359619d0c85f3b83dd</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>a71dfa20b97dff2b42c72e5c</string>
-				<string>9d1536aae18aa9b2b9a1114c</string>
-				<string>69b18edc192bd9846e103e1b</string>
-				<string>27a7ad660ed07a447d5ce614</string>
-				<string>42f347e379435c60c0f180d7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>69b18edc192bd9846e103e1b</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65B015C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>725658c82aa38881eb47f9b4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65B815C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7400a8085d819b8056e4683c</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>"$(SRCROOT)"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>TableInEditMode/TableInEditMode-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TableInEditMode/TableInEditMode-Info.plist</string>
-				<key>OTHER_LDFLAGS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>-force_load</string>
-					<string>"$(SRCROOT)/calabash.framework/calabash"</string>
-					<string>-lstdc++</string>
-				</array>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>78e231b89000f4e36012c587</key>
-		<dict>
-			<key>FileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CFNetwork.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CFNetwork.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>830cc31296433f3ecb77190c</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65C115C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>88494a1ac3355c414896b5c2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TableInEditMode-cal.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9d1536aae18aa9b2b9a1114c</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65AE15C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5CA659D15C330FC00E47914</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F5CA65B215C330FC00E47914</string>
-				<string>F5CA65AB15C330FC00E47914</string>
-				<string>F5CA65A915C330FC00E47914</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA659F15C330FC00E47914</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>Ljs</string>
-				<key>LastUpgradeCheck</key>
-				<string>0430</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Little Joy Software</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>F5CA65A215C330FC00E47914</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>F5CA659D15C330FC00E47914</string>
-			<key>productRefGroup</key>
-			<string>F5CA65A915C330FC00E47914</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>F5CA65A715C330FC00E47914</string>
-				<string>f3e44900f0caa4ba0b430b9f</string>
-			</array>
-		</dict>
-		<key>F5CA65A215C330FC00E47914</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F5CA65C415C330FC00E47914</string>
-				<string>F5CA65C515C330FC00E47914</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F5CA65A415C330FC00E47914</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F5CA65B915C330FC00E47914</string>
-				<string>F5CA65BD15C330FC00E47914</string>
-				<string>F5CA65C015C330FC00E47914</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F5CA65A515C330FC00E47914</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F5CA65AD15C330FC00E47914</string>
-				<string>F5CA65AF15C330FC00E47914</string>
-				<string>F5CA65B115C330FC00E47914</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F5CA65A615C330FC00E47914</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F5CA65B715C330FC00E47914</string>
-				<string>F5CA65C315C330FC00E47914</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F5CA65A715C330FC00E47914</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F5CA65C615C330FC00E47914</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F5CA65A415C330FC00E47914</string>
-				<string>F5CA65A515C330FC00E47914</string>
-				<string>F5CA65A615C330FC00E47914</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TableInEditMode</string>
-			<key>productName</key>
-			<string>TableInEditMode</string>
-			<key>productReference</key>
-			<string>F5CA65A815C330FC00E47914</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>F5CA65A815C330FC00E47914</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TableInEditMode.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F5CA65A915C330FC00E47914</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F5CA65A815C330FC00E47914</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65AB15C330FC00E47914</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F5CA65AC15C330FC00E47914</string>
-				<string>F5CA65AE15C330FC00E47914</string>
-				<string>F5CA65B015C330FC00E47914</string>
-				<string>78e231b89000f4e36012c587</string>
-				<string>06ffdec2e107bc3295e48b39</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>path</key>
-			<string></string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65AC15C330FC00E47914</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>F5CA65AD15C330FC00E47914</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65AC15C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5CA65AE15C330FC00E47914</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>F5CA65AF15C330FC00E47914</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65AE15C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5CA65B015C330FC00E47914</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>F5CA65B115C330FC00E47914</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65B015C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5CA65B215C330FC00E47914</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F5CA65BB15C330FC00E47914</string>
-				<string>F5CA65BC15C330FC00E47914</string>
-				<string>F5CA65BE15C330FC00E47914</string>
-				<string>F5CA65BF15C330FC00E47914</string>
-				<string>F5CA65C115C330FC00E47914</string>
-				<string>F5CA65B315C330FC00E47914</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TableInEditMode</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65B315C330FC00E47914</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F5CA65B415C330FC00E47914</string>
-				<string>F5CA65B515C330FC00E47914</string>
-				<string>F5CA65B815C330FC00E47914</string>
-				<string>F5CA65BA15C330FC00E47914</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65B415C330FC00E47914</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>TableInEditMode-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65B515C330FC00E47914</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F5CA65B615C330FC00E47914</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65B615C330FC00E47914</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65B715C330FC00E47914</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65B515C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5CA65B815C330FC00E47914</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65B915C330FC00E47914</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65B815C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5CA65BA15C330FC00E47914</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TableInEditMode-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65BB15C330FC00E47914</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LjsAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65BC15C330FC00E47914</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LjsAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65BD15C330FC00E47914</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65BC15C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5CA65BE15C330FC00E47914</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LjsViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65BF15C330FC00E47914</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LjsViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65C015C330FC00E47914</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65BF15C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5CA65C115C330FC00E47914</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F5CA65C215C330FC00E47914</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LjsViewController.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65C215C330FC00E47914</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/LjsViewController.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5CA65C315C330FC00E47914</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65C115C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5CA65C415C330FC00E47914</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F5CA65C515C330FC00E47914</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>F5CA65C615C330FC00E47914</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F5CA65C715C330FC00E47914</string>
-				<string>F5CA65C815C330FC00E47914</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F5CA65C715C330FC00E47914</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>TableInEditMode/TableInEditMode-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TableInEditMode/TableInEditMode-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F5CA65C815C330FC00E47914</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>TableInEditMode/TableInEditMode-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TableInEditMode/TableInEditMode-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>a71dfa20b97dff2b42c72e5c</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65AC15C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ce3760a9873a1da44e8f961a</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5CA65B515C330FC00E47914</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>e980b4e95e96181c5447497d</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ce3760a9873a1da44e8f961a</string>
-				<string>830cc31296433f3ecb77190c</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>f148bdaf7d29c3484f97004f</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>"$(SRCROOT)"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>TableInEditMode/TableInEditMode-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TableInEditMode/TableInEditMode-Info.plist</string>
-				<key>OTHER_LDFLAGS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>-force_load</string>
-					<string>"$(SRCROOT)/calabash.framework/calabash"</string>
-					<string>-lstdc++</string>
-				</array>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>f3e44900f0caa4ba0b430b9f</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>fc2cd6923e7e837f90d73462</string>
-			<key>buildPhases</key>
-			<array>
-				<string>47d5cbd5313858ccd0ff70c7</string>
-				<string>6227d7359619d0c85f3b83dd</string>
-				<string>e980b4e95e96181c5447497d</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TableInEditMode-cal</string>
-			<key>productName</key>
-			<string>TableInEditMode-cal</string>
-			<key>productReference</key>
-			<string>88494a1ac3355c414896b5c2</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>fc2cd6923e7e837f90d73462</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7400a8085d819b8056e4683c</string>
-				<string>f148bdaf7d29c3484f97004f</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>F5CA659F15C330FC00E47914</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10bfe60bbb57f9fad7340c66 /* LjsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA65BF15C330FC00E47914 /* LjsViewController.m */; };
+		27a7ad660ed07a447d5ce614 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78e231b89000f4e36012c587 /* CFNetwork.framework */; };
+		42f347e379435c60c0f180d7 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ffdec2e107bc3295e48b39 /* calabash.framework */; };
+		5b6abebc93ca23d1f93f0a16 /* LjsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA65BC15C330FC00E47914 /* LjsAppDelegate.m */; };
+		69b18edc192bd9846e103e1b /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA65B015C330FC00E47914 /* CoreGraphics.framework */; };
+		725658c82aa38881eb47f9b4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA65B815C330FC00E47914 /* main.m */; };
+		830cc31296433f3ecb77190c /* LjsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CA65C115C330FC00E47914 /* LjsViewController.xib */; };
+		9d1536aae18aa9b2b9a1114c /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA65AE15C330FC00E47914 /* Foundation.framework */; };
+		F5CA65AD15C330FC00E47914 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA65AC15C330FC00E47914 /* UIKit.framework */; };
+		F5CA65AF15C330FC00E47914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA65AE15C330FC00E47914 /* Foundation.framework */; };
+		F5CA65B115C330FC00E47914 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA65B015C330FC00E47914 /* CoreGraphics.framework */; };
+		F5CA65B715C330FC00E47914 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5CA65B515C330FC00E47914 /* InfoPlist.strings */; };
+		F5CA65B915C330FC00E47914 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA65B815C330FC00E47914 /* main.m */; };
+		F5CA65BD15C330FC00E47914 /* LjsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA65BC15C330FC00E47914 /* LjsAppDelegate.m */; };
+		F5CA65C015C330FC00E47914 /* LjsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CA65BF15C330FC00E47914 /* LjsViewController.m */; };
+		F5CA65C315C330FC00E47914 /* LjsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CA65C115C330FC00E47914 /* LjsViewController.xib */; };
+		a71dfa20b97dff2b42c72e5c /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA65AC15C330FC00E47914 /* UIKit.framework */; };
+		ce3760a9873a1da44e8f961a /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5CA65B515C330FC00E47914 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06ffdec2e107bc3295e48b39 /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+		78e231b89000f4e36012c587 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F5CA65A815C330FC00E47914 /* TableInEditMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableInEditMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CA65AC15C330FC00E47914 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5CA65AE15C330FC00E47914 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5CA65B015C330FC00E47914 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5CA65B415C330FC00E47914 /* TableInEditMode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableInEditMode-Info.plist"; sourceTree = "<group>"; };
+		F5CA65B615C330FC00E47914 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5CA65B815C330FC00E47914 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5CA65BA15C330FC00E47914 /* TableInEditMode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableInEditMode-Prefix.pch"; sourceTree = "<group>"; };
+		F5CA65BB15C330FC00E47914 /* LjsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LjsAppDelegate.h; sourceTree = "<group>"; };
+		F5CA65BC15C330FC00E47914 /* LjsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LjsAppDelegate.m; sourceTree = "<group>"; };
+		F5CA65BE15C330FC00E47914 /* LjsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LjsViewController.h; sourceTree = "<group>"; };
+		F5CA65BF15C330FC00E47914 /* LjsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LjsViewController.m; sourceTree = "<group>"; };
+		F5CA65C215C330FC00E47914 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LjsViewController.xib; sourceTree = "<group>"; };
+		F5EBA28015C5996200F65302 /* TableInEditMode-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableInEditMode-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6227d7359619d0c85f3b83dd /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				a71dfa20b97dff2b42c72e5c /* UIKit.framework in Frameworks */,
+				9d1536aae18aa9b2b9a1114c /* Foundation.framework in Frameworks */,
+				69b18edc192bd9846e103e1b /* CoreGraphics.framework in Frameworks */,
+				27a7ad660ed07a447d5ce614 /* CFNetwork.framework in Frameworks */,
+				42f347e379435c60c0f180d7 /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CA65A515C330FC00E47914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CA65AD15C330FC00E47914 /* UIKit.framework in Frameworks */,
+				F5CA65AF15C330FC00E47914 /* Foundation.framework in Frameworks */,
+				F5CA65B115C330FC00E47914 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5CA659D15C330FC00E47914 = {
+			isa = PBXGroup;
+			children = (
+				F5CA65B215C330FC00E47914 /* TableInEditMode */,
+				F5CA65AB15C330FC00E47914 /* Frameworks */,
+				F5CA65A915C330FC00E47914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CA65A915C330FC00E47914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA65A815C330FC00E47914 /* TableInEditMode.app */,
+				F5EBA28015C5996200F65302 /* TableInEditMode-cal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CA65AB15C330FC00E47914 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA65AC15C330FC00E47914 /* UIKit.framework */,
+				F5CA65AE15C330FC00E47914 /* Foundation.framework */,
+				F5CA65B015C330FC00E47914 /* CoreGraphics.framework */,
+				78e231b89000f4e36012c587 /* CFNetwork.framework */,
+				06ffdec2e107bc3295e48b39 /* calabash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5CA65B215C330FC00E47914 /* TableInEditMode */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA65BB15C330FC00E47914 /* LjsAppDelegate.h */,
+				F5CA65BC15C330FC00E47914 /* LjsAppDelegate.m */,
+				F5CA65BE15C330FC00E47914 /* LjsViewController.h */,
+				F5CA65BF15C330FC00E47914 /* LjsViewController.m */,
+				F5CA65C115C330FC00E47914 /* LjsViewController.xib */,
+				F5CA65B315C330FC00E47914 /* Supporting Files */,
+			);
+			path = TableInEditMode;
+			sourceTree = "<group>";
+		};
+		F5CA65B315C330FC00E47914 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA65B415C330FC00E47914 /* TableInEditMode-Info.plist */,
+				F5CA65B515C330FC00E47914 /* InfoPlist.strings */,
+				F5CA65B815C330FC00E47914 /* main.m */,
+				F5CA65BA15C330FC00E47914 /* TableInEditMode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CA65A715C330FC00E47914 /* TableInEditMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CA65C615C330FC00E47914 /* Build configuration list for PBXNativeTarget "TableInEditMode" */;
+			buildPhases = (
+				F5CA65A415C330FC00E47914 /* Sources */,
+				F5CA65A515C330FC00E47914 /* Frameworks */,
+				F5CA65A615C330FC00E47914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableInEditMode;
+			productName = TableInEditMode;
+			productReference = F5CA65A815C330FC00E47914 /* TableInEditMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		f3e44900f0caa4ba0b430b9f /* TableInEditMode-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = fc2cd6923e7e837f90d73462 /* Build configuration list for PBXNativeTarget "TableInEditMode-cal" */;
+			buildPhases = (
+				47d5cbd5313858ccd0ff70c7 /* Sources */,
+				6227d7359619d0c85f3b83dd /* Frameworks */,
+				e980b4e95e96181c5447497d /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableInEditMode-cal";
+			productName = "TableInEditMode-cal";
+			productReference = F5EBA28015C5996200F65302 /* TableInEditMode-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CA659F15C330FC00E47914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ljs;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Little Joy Software";
+			};
+			buildConfigurationList = F5CA65A215C330FC00E47914 /* Build configuration list for PBXProject "TableInEditMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5CA659D15C330FC00E47914;
+			productRefGroup = F5CA65A915C330FC00E47914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CA65A715C330FC00E47914 /* TableInEditMode */,
+				f3e44900f0caa4ba0b430b9f /* TableInEditMode-cal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CA65A615C330FC00E47914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CA65B715C330FC00E47914 /* InfoPlist.strings in Resources */,
+				F5CA65C315C330FC00E47914 /* LjsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		e980b4e95e96181c5447497d /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ce3760a9873a1da44e8f961a /* InfoPlist.strings in Resources */,
+				830cc31296433f3ecb77190c /* LjsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47d5cbd5313858ccd0ff70c7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725658c82aa38881eb47f9b4 /* main.m in Sources */,
+				5b6abebc93ca23d1f93f0a16 /* LjsAppDelegate.m in Sources */,
+				10bfe60bbb57f9fad7340c66 /* LjsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CA65A415C330FC00E47914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CA65B915C330FC00E47914 /* main.m in Sources */,
+				F5CA65BD15C330FC00E47914 /* LjsAppDelegate.m in Sources */,
+				F5CA65C015C330FC00E47914 /* LjsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5CA65B515C330FC00E47914 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CA65B615C330FC00E47914 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5CA65C115C330FC00E47914 /* LjsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CA65C215C330FC00E47914 /* en */,
+			);
+			name = LjsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7400a8085d819b8056e4683c /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableInEditMode/TableInEditMode-Prefix.pch";
+				INFOPLIST_FILE = "TableInEditMode/TableInEditMode-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5CA65C415C330FC00E47914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5CA65C515C330FC00E47914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CA65C715C330FC00E47914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableInEditMode/TableInEditMode-Prefix.pch";
+				INFOPLIST_FILE = "TableInEditMode/TableInEditMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5CA65C815C330FC00E47914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableInEditMode/TableInEditMode-Prefix.pch";
+				INFOPLIST_FILE = "TableInEditMode/TableInEditMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		f148bdaf7d29c3484f97004f /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableInEditMode/TableInEditMode-Prefix.pch";
+				INFOPLIST_FILE = "TableInEditMode/TableInEditMode-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CA65A215C330FC00E47914 /* Build configuration list for PBXProject "TableInEditMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CA65C415C330FC00E47914 /* Debug */,
+				F5CA65C515C330FC00E47914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CA65C615C330FC00E47914 /* Build configuration list for PBXNativeTarget "TableInEditMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CA65C715C330FC00E47914 /* Debug */,
+				F5CA65C815C330FC00E47914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		fc2cd6923e7e837f90d73462 /* Build configuration list for PBXNativeTarget "TableInEditMode-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7400a8085d819b8056e4683c /* Debug */,
+				f148bdaf7d29c3484f97004f /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5CA659F15C330FC00E47914 /* Project object */;
+}
