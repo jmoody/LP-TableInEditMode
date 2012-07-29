@@ -55,6 +55,7 @@ static CGFloat const heightOfRow = 49;
   UIColor *lineColor = [UIColor blackColor];
   [self.tableView setSeparatorColor:lineColor];
   self.tableView.accessibilityIdentifier = @"table";
+  self.tableView.tag = 3030;
   
   [self.view addSubview:self.tableView];
   
