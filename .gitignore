@@ -7,6 +7,10 @@ SlenderBackup*
 
 Backup*
 
+# Jetbrains
+
+workspace.xml
+
 #ruby
 
 *.gem
