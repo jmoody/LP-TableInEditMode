@@ -41,4 +41,5 @@ PLATFORMS
 
 DEPENDENCIES
   calabash-cucumber (= 0.9.80.pre.5)
+  cucumber
   rake
